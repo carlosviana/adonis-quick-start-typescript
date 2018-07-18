@@ -62,9 +62,7 @@
     "emitDecoratorMetadata": true         /* Enables experimental support for emitting type metadata for decorators. */
   },
   "files": [
-    "typings/adonis/index.d.ts",
-    "typings/adonis/module.d.ts",
-    "typings/adonis/cache.d.ts"
+    "typings/global.d.ts",
   ],
   "exclude": [
     "node_modules"

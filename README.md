@@ -1,31 +1,19 @@
-# Adonis fullstack application
+# Adonis-quick-start-typescript
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+1. The framework of adonis typescript fast start
+2. A complete development environment configuration and debug configuration
+3. Complete framework typescript definition file(.d.ts)
 
 ## Setup
 
-Use the adonis command to install the blueprint
-
 ```bash
-adonis new yardstick
+# Clone this repository
+git clone https://github.com/tiansin/adonis-quick-start-typescript
+# Go into the repository
+cd adonis-quick-start-typescript
+# Clone typings repository
+git submodule update --init --recursive 
+# Install dependencies
+npm install
 ```
 
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```

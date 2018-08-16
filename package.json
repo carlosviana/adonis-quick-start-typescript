@@ -29,13 +29,15 @@
     "@adonisjs/session": "^1.0.25",
     "@adonisjs/shield": "^1.0.6",
     "@adonisjs/validator": "^5.0.3",
+    "ioredis": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/debug": "^0.0.30",
     "@types/knex": "^0.14.15",
     "@types/ioredis": "^3.2.11",
     "@types/lodash": "^4.14.110",
-    "@types/node": "^10.5.1",
-    "ioredis": "^3.2.2"
+    "@types/node": "^10.5.1"
   },
-  "devDependencies": {},
   "autoload": {
     "App": "./app"
   }
